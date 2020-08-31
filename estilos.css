@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+body{
+    margin:0 auto;
+    max-width: auto;
+}
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link{
+    color:black
+}
+.nav link:hover{
+    color: black;
+}
+
+.logo-brand{
+    min-width: 190px;
+    max-width: 250px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+
+}
+
+.navbar-toggler{ font-size: 40px;}
+.navbar-toggler:focus{outline: none;}
+
+#hero{
+    background-image: url("./imagenes/lopez.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+.btn1{
+    font-size: 20px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+.contacto{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarx a{
+    padding: 0px;
+    font-size: 20px;
+}
+.navbar-brand{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+.titulo{
+    margin: 0;
+    padding: 0;
+}
+.btn-primary1{
+    padding: 10px;
+    margin: 10px;
+    background-color:ghostwhite;
+    color: black;
+    border: 2px solid ghostwhite;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-color: rgb(20, 18, 18);
+    margin: 10px;
+}
+
+.row-mapa{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    margin: 30px;
+}
+
+.h2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0px;
+    
+}
+
+.h2 h2{
+    color: white;
+    font-size: 40px;
+}
+.informacion-mapa{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+
+}
